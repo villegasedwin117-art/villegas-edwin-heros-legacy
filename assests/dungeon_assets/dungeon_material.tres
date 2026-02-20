@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://i5oaee3744q3"]
+
+[ext_resource type="Texture2D" uid="uid://blek2nt0oqb6n" path="res://assests/dungeon_assets/dungeon_albedo.png" id="1_ke47g"]
+
+[resource]
+albedo_texture = ExtResource("1_ke47g")

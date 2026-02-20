@@ -1,0 +1,21 @@
+[gd_scene format=3 uid="uid://dynxn01rf45ra"]
+
+[ext_resource type="PackedScene" uid="uid://dbfud63brgb10" path="res://assests/dungeon_assets/building/wall_tsplit.glb" id="1_eigo3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_24qvc"]
+size = Vector3(3.996582, 3.966858, 0.66967773)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ofe58"]
+size = Vector3(1.6, 3.966858, 0.66967773)
+
+[node name="split_stone_wallT" type="StaticBody3D" unique_id=770931345]
+
+[node name="wall_tsplit" parent="." unique_id=307395178 instance=ExtResource("1_eigo3")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1104525769]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0036621094, 1.98349, -0.011108398)
+shape = SubResource("BoxShape3D_24qvc")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." unique_id=358674221]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 0.003662057, 1.98349, 1.1871827)
+shape = SubResource("BoxShape3D_ofe58")

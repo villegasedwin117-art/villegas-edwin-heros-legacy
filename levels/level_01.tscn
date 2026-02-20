@@ -100,7 +100,7 @@ operation = 2
 sides = 16
 
 [node name="ProtoController" parent="." unique_id=1078414687 instance=ExtResource("1_ty3hu")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.91403747, 1.8693306, -13.628019)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.585964, 1.8693306, -13.628019)
 input_left = "move_left"
 input_right = "move_right"
 input_forward = "move_forward"
