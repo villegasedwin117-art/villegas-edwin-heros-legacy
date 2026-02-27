@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://addons/proto_controller/proto_controller.tscn" id="1_ty3hu"]
 [ext_resource type="PackedScene" uid="uid://cutf7t3pusmkb" path="res://assests/dungeon_assets/building/floor_stone.glb" id="2_81a5f"]
 [ext_resource type="PackedScene" uid="uid://ban7a5ksr3tx8" path="res://assests/dungeon_assets/building/floor_wood.glb" id="3_gg43x"]
+[ext_resource type="PackedScene" uid="uid://cplimidfabilg" path="res://assests/dungeon_assets/dungeon_scenes/floor_wood.tscn" id="4_2qse1"]
 [ext_resource type="PackedScene" uid="uid://dbfud63brgb10" path="res://assests/dungeon_assets/building/wall_tsplit.glb" id="4_jy02f"]
 [ext_resource type="PackedScene" uid="uid://dwpbadsgyyw0a" path="res://assests/dungeon_assets/building/wall.glb" id="5_5dxk1"]
 [ext_resource type="PackedScene" uid="uid://cvkdtu2f45qb7" path="res://assests/dungeon_assets/building/wall_doorway.glb" id="6_kjd3d"]
@@ -19,6 +20,7 @@
 [ext_resource type="PackedScene" uid="uid://dl60ldnv6fa0f" path="res://assests/dungeon_assets/props/table_small.glb" id="16_pdl2l"]
 [ext_resource type="PackedScene" uid="uid://bjw08pa7255kt" path="res://assests/dungeon_assets/props/banner_mounted.glb" id="18_2qse1"]
 [ext_resource type="PackedScene" uid="uid://bdglj2wsarg8b" path="res://assests/dungeon_assets/props/torch_mounted.glb" id="19_xt52j"]
+[ext_resource type="PackedScene" uid="uid://cabg02dcaee0x" path="res://Meshes/Healthpack.glb" id="21_xt52j"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_ty3hu"]
 sky_top_color = Color(0.20784314, 0.45490196, 0.54901963, 1)
@@ -202,323 +204,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.10000038, 0, -39.999992)
 [node name="floor_stone12" parent="floor_stone4" unique_id=1556643148 instance=ExtResource("2_81a5f")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.10000038, 0, -43.999992)
 
-[node name="floor_wood" parent="." unique_id=1524751116 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -1, 1.9, -0.09984112)
-
-[node name="floor_wood2" parent="floor_wood" unique_id=1623769054 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood" unique_id=797600351 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood" unique_id=795618188 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood" unique_id=951995373 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood" unique_id=1482252724 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood" unique_id=1632851633 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood2" parent="." unique_id=1296153274 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -1, 1.9, 4.546559)
-
-[node name="floor_wood2" parent="floor_wood2" unique_id=1834847385 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood2" unique_id=1705088757 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood2" unique_id=535627342 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood2" unique_id=510552926 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood2" unique_id=82500638 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood2" unique_id=1826444902 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood3" parent="." unique_id=681935922 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -1, 1.9, 9.19296)
-
-[node name="floor_wood2" parent="floor_wood3" unique_id=1162034831 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood3" unique_id=1986688640 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood3" unique_id=551792941 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood3" unique_id=1872449094 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood3" unique_id=90715487 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood3" unique_id=1970065361 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood4" parent="." unique_id=1256558056 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -1, 1.9, 17.608164)
-
-[node name="floor_wood2" parent="floor_wood4" unique_id=2080105628 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood4" unique_id=1970635433 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood4" unique_id=1136093900 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood4" unique_id=1006677811 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood4" unique_id=296106925 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood4" unique_id=1256907278 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood5" parent="." unique_id=153810054 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.96800005, -1, 1.9, 13.452161)
-
-[node name="floor_wood2" parent="floor_wood5" unique_id=735165700 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood5" unique_id=1324698285 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood5" unique_id=1700833946 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood5" unique_id=1123576369 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood5" unique_id=53058947 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood5" unique_id=1223591157 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood_group11" parent="." unique_id=1793143757 instance=ExtResource("3_gg43x")]
-transform = Transform3D(0.55, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -17.9, 1.9, -0.19984111)
-
-[node name="floor_wood2" parent="floor_wood_group11" unique_id=698528502 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood_group11" unique_id=1679884391 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood_group11" unique_id=572636135 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood_group11" unique_id=651925700 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood_group11" unique_id=2114068811 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood_group11" unique_id=7515842 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood12" parent="." unique_id=1945239658 instance=ExtResource("3_gg43x")]
-transform = Transform3D(0.55, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -17.9, 1.9, 4.446559)
-
-[node name="floor_wood2" parent="floor_wood12" unique_id=2079576537 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood12" unique_id=1312051267 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood12" unique_id=1334345713 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood12" unique_id=1834784090 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood12" unique_id=1076556056 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood12" unique_id=1241185896 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood13" parent="." unique_id=167841438 instance=ExtResource("3_gg43x")]
-transform = Transform3D(0.55, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -17.9, 1.9, 8.99296)
-
-[node name="floor_wood2" parent="floor_wood13" unique_id=721529963 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood13" unique_id=385274045 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood13" unique_id=1538046051 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood13" unique_id=1806014790 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood13" unique_id=871487400 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood13" unique_id=210715040 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood14" parent="." unique_id=740889921 instance=ExtResource("3_gg43x")]
-transform = Transform3D(0.55, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -17.9, 1.9, 17.708164)
-
-[node name="floor_wood2" parent="floor_wood14" unique_id=1084978234 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood14" unique_id=95616753 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood14" unique_id=1037185614 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood14" unique_id=1854725213 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood14" unique_id=543427865 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood14" unique_id=1659153878 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood15" parent="." unique_id=2101805807 instance=ExtResource("3_gg43x")]
-transform = Transform3D(0.55, 0, 0, 0, 1, 0, 0, 0, 0.96800005, -17.9, 1.9, 13.452161)
-
-[node name="floor_wood2" parent="floor_wood15" unique_id=1108195015 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood15" unique_id=1639348185 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood15" unique_id=93988501 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood15" unique_id=1708970900 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood15" unique_id=2134271685 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood15" unique_id=544850171 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood_group12" parent="." unique_id=120122330 instance=ExtResource("3_gg43x")]
-transform = Transform3D(0.55, 0, 0, 0, 1, 0, 0, 0, 1.2777601, -17.9, 1.9, -22.79984)
-
-[node name="floor_wood2" parent="floor_wood_group12" unique_id=1926853528 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood_group12" unique_id=770098528 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood_group12" unique_id=972751549 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood_group12" unique_id=1991581009 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood_group12" unique_id=2136710872 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood_group12" unique_id=1293119760 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood16" parent="." unique_id=1075580893 instance=ExtResource("3_gg43x")]
-transform = Transform3D(0.55, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -17.9, 1.9, -17.953444)
-
-[node name="floor_wood2" parent="floor_wood16" unique_id=501031197 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood16" unique_id=968239768 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood16" unique_id=1473318168 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood16" unique_id=603529030 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood16" unique_id=1226822370 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood16" unique_id=475584301 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood17" parent="." unique_id=851378737 instance=ExtResource("3_gg43x")]
-transform = Transform3D(0.55, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -17.9, 1.9, -13.307041)
-
-[node name="floor_wood2" parent="floor_wood17" unique_id=2050376584 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood17" unique_id=537720057 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood17" unique_id=1769009876 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood17" unique_id=658616153 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood17" unique_id=1806498586 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood17" unique_id=2019802000 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood18" parent="." unique_id=449037184 instance=ExtResource("3_gg43x")]
-transform = Transform3D(0.55, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -17.9, 1.9, -4.7918363)
-
-[node name="floor_wood2" parent="floor_wood18" unique_id=1174489102 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood18" unique_id=1752150948 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood18" unique_id=240518142 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood18" unique_id=2061578937 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood18" unique_id=1503622541 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood18" unique_id=1583450972 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
-[node name="floor_wood19" parent="." unique_id=681316688 instance=ExtResource("3_gg43x")]
-transform = Transform3D(0.55, 0, 0, 0, 1, 0, 0, 0, 0.95832, -17.9, 1.9, -9.04784)
-
-[node name="floor_wood2" parent="floor_wood19" unique_id=900535638 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
-
-[node name="floor_wood3" parent="floor_wood19" unique_id=652587798 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
-
-[node name="floor_wood4" parent="floor_wood19" unique_id=1460564945 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
-
-[node name="floor_wood5" parent="floor_wood19" unique_id=537326668 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
-
-[node name="floor_wood6" parent="floor_wood19" unique_id=416716615 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
-
-[node name="floor_wood7" parent="floor_wood19" unique_id=556975545 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
-
 [node name="floor_wood6" parent="." unique_id=1625293395 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -1, 1.9, -22.899841)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -1, 0.29999995, -22.899841)
 
 [node name="floor_wood2" parent="floor_wood6" unique_id=1786497923 instance=ExtResource("3_gg43x")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
@@ -538,89 +225,290 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
 [node name="floor_wood7" parent="floor_wood6" unique_id=1133984693 instance=ExtResource("3_gg43x")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
 
-[node name="floor_wood7" parent="." unique_id=258188773 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -1, 1.9, -18.253443)
+[node name="floor_wood11" parent="." unique_id=1637741855 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1.4641001, 0, 0, 0, 1, 0, 0, 0, 1.1880001, -0.7, 1.9, -5.2999997)
 
-[node name="floor_wood2" parent="floor_wood7" unique_id=108110026 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+[node name="floor_wood20" parent="floor_wood11" unique_id=1147039305 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
 
-[node name="floor_wood3" parent="floor_wood7" unique_id=622781412 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+[node name="floor_wood21" parent="floor_wood11" unique_id=1396868999 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
 
-[node name="floor_wood4" parent="floor_wood7" unique_id=1890789882 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
+[node name="floor_wood22" parent="floor_wood11" unique_id=1084657571 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
 
-[node name="floor_wood5" parent="floor_wood7" unique_id=936098664 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
+[node name="floor_wood23" parent="floor_wood11" unique_id=564695344 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
 
-[node name="floor_wood6" parent="floor_wood7" unique_id=30001398 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
+[node name="floor_wood24" parent="floor_wood11" unique_id=1773566224 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1.0000001, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.9562292)
 
-[node name="floor_wood7" parent="floor_wood7" unique_id=597170765 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
+[node name="floor_wood20" parent="floor_wood11/floor_wood24" unique_id=1845097445 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
 
-[node name="floor_wood8" parent="." unique_id=1658484382 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -1, 1.9, -13.60704)
+[node name="floor_wood21" parent="floor_wood11/floor_wood24" unique_id=1749147397 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
 
-[node name="floor_wood2" parent="floor_wood8" unique_id=1127602358 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+[node name="floor_wood22" parent="floor_wood11/floor_wood24" unique_id=1060241961 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
 
-[node name="floor_wood3" parent="floor_wood8" unique_id=637824584 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+[node name="floor_wood23" parent="floor_wood11/floor_wood24" unique_id=1133502629 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
 
-[node name="floor_wood4" parent="floor_wood8" unique_id=1377905768 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
+[node name="floor_wood25" parent="floor_wood11" unique_id=1646164554 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1.0000001, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -7.9124584)
 
-[node name="floor_wood5" parent="floor_wood8" unique_id=1509383145 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
+[node name="floor_wood20" parent="floor_wood11/floor_wood25" unique_id=1872337214 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
 
-[node name="floor_wood6" parent="floor_wood8" unique_id=392828238 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
+[node name="floor_wood21" parent="floor_wood11/floor_wood25" unique_id=458643558 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
 
-[node name="floor_wood7" parent="floor_wood8" unique_id=1609644786 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
+[node name="floor_wood22" parent="floor_wood11/floor_wood25" unique_id=938216526 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
 
-[node name="floor_wood9" parent="." unique_id=148896742 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1.1616001, -1, 1.9, -5.0918365)
+[node name="floor_wood23" parent="floor_wood11/floor_wood25" unique_id=140633046 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
 
-[node name="floor_wood2" parent="floor_wood9" unique_id=1205038945 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+[node name="floor_wood26" parent="floor_wood11" unique_id=377176596 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1.0000001, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -11.868687)
 
-[node name="floor_wood3" parent="floor_wood9" unique_id=945721281 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+[node name="floor_wood20" parent="floor_wood11/floor_wood26" unique_id=1876291480 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
 
-[node name="floor_wood4" parent="floor_wood9" unique_id=1481342088 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
+[node name="floor_wood21" parent="floor_wood11/floor_wood26" unique_id=2019641574 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
 
-[node name="floor_wood5" parent="floor_wood9" unique_id=1315888377 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
+[node name="floor_wood22" parent="floor_wood11/floor_wood26" unique_id=99555641 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
 
-[node name="floor_wood6" parent="floor_wood9" unique_id=516347653 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
+[node name="floor_wood23" parent="floor_wood11/floor_wood26" unique_id=194214606 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
 
-[node name="floor_wood7" parent="floor_wood9" unique_id=1191675402 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
+[node name="floor_wood27" parent="floor_wood11" unique_id=1993501733 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1.0000001, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -15.824915)
 
-[node name="floor_wood10" parent="." unique_id=1650430209 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.96800005, -1, 1.9, -9.347839)
+[node name="floor_wood20" parent="floor_wood11/floor_wood27" unique_id=522362636 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
 
-[node name="floor_wood2" parent="floor_wood10" unique_id=420329288 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+[node name="floor_wood21" parent="floor_wood11/floor_wood27" unique_id=697266666 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
 
-[node name="floor_wood3" parent="floor_wood10" unique_id=1533716807 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8, 0, 0)
+[node name="floor_wood22" parent="floor_wood11/floor_wood27" unique_id=1281899930 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
 
-[node name="floor_wood4" parent="floor_wood10" unique_id=1655437761 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12, 0, 0)
+[node name="floor_wood23" parent="floor_wood11/floor_wood27" unique_id=485660857 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
 
-[node name="floor_wood5" parent="floor_wood10" unique_id=1048823057 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16, 0, 0)
+[node name="floor_wood24" parent="." unique_id=1487195759 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1.4641001, 0, 0, 0, 1, 0, 0, 0, 1.1880001, -0.7, 1.8364685, 17.400002)
 
-[node name="floor_wood6" parent="floor_wood10" unique_id=1741213038 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 20, 0, 0)
+[node name="floor_wood20" parent="floor_wood24" unique_id=2087134458 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
 
-[node name="floor_wood7" parent="floor_wood10" unique_id=752555463 instance=ExtResource("3_gg43x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24, 0, 0)
+[node name="floor_wood21" parent="floor_wood24" unique_id=1103079820 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood24" unique_id=1321094277 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood24" unique_id=1761327786 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
+
+[node name="floor_wood25" parent="floor_wood24" unique_id=645030958 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1.0000001, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.9562292)
+
+[node name="floor_wood20" parent="floor_wood24/floor_wood25" unique_id=1650807560 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
+
+[node name="floor_wood21" parent="floor_wood24/floor_wood25" unique_id=76892654 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood24/floor_wood25" unique_id=1247484851 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood24/floor_wood25" unique_id=1497121040 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
+
+[node name="floor_wood26" parent="floor_wood24" unique_id=2033220671 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1.0000001, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -7.912459)
+
+[node name="floor_wood20" parent="floor_wood24/floor_wood26" unique_id=385769997 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
+
+[node name="floor_wood21" parent="floor_wood24/floor_wood26" unique_id=1787449957 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood24/floor_wood26" unique_id=1290150134 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood24/floor_wood26" unique_id=1407435342 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
+
+[node name="floor_wood27" parent="floor_wood24" unique_id=1523833581 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1.0000001, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -11.868687)
+
+[node name="floor_wood20" parent="floor_wood24/floor_wood27" unique_id=1831268555 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
+
+[node name="floor_wood21" parent="floor_wood24/floor_wood27" unique_id=544383498 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood24/floor_wood27" unique_id=150672825 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood24/floor_wood27" unique_id=2127172605 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
+
+[node name="floor_wood28" parent="." unique_id=1537842309 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1.4641001, 0, 0, 0, 1, 0, 0, 0, 1.1880001, -0.7, 1.8364685, -1.3999996)
+
+[node name="floor_wood20" parent="floor_wood28" unique_id=528187031 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
+
+[node name="floor_wood21" parent="floor_wood28" unique_id=750367106 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood28" unique_id=1917745983 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood28" unique_id=1355921469 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
+
+[node name="floor_wood20" parent="." unique_id=109663735 instance=ExtResource("4_2qse1")]
+transform = Transform3D(0.81989604, 0, 0, 0, 1, 0, 0, 0, 0.7794467, -14.535198, 1.9364682, 1.1101189)
+
+[node name="floor_wood21" parent="." unique_id=1779637000 instance=ExtResource("4_2qse1")]
+transform = Transform3D(0.81989604, 0, 0, 0, 1, 0, 0, 0, 0.7794467, -11.270398, 1.9364682, 1.1101189)
+
+[node name="floor_wood22" parent="." unique_id=158665486 instance=ExtResource("4_2qse1")]
+transform = Transform3D(0.81989604, 0, 0, 0, 1, 0, 0, 0, 0.77944666, -8.005598, 1.9364682, 1.1101189)
+
+[node name="floor_wood23" parent="." unique_id=609876468 instance=ExtResource("4_2qse1")]
+transform = Transform3D(0.81989604, 0, 0, 0, 1, 0, 0, 0, 0.7794466, -4.7408, 1.9364682, 1.1101189)
+
+[node name="floor_wood34" parent="." unique_id=1753886544 instance=ExtResource("4_2qse1")]
+transform = Transform3D(0.81989604, 0, 0, 0, 1, 0, 0, 0, 0.86605203, -17.8, 1.9364682, -2.1599407)
+
+[node name="floor_wood20" parent="floor_wood34" unique_id=1457374255 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
+
+[node name="floor_wood21" parent="floor_wood34" unique_id=204342573 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood34" unique_id=716344604 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood34" unique_id=752669211 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
+
+[node name="floor_wood35" parent="." unique_id=940455121 instance=ExtResource("4_2qse1")]
+transform = Transform3D(0.81989604, 0, 0, 0, 1, 0, 0, 0, 0.86605203, -17.8, 1.9364682, -5.58624)
+
+[node name="floor_wood20" parent="floor_wood35" unique_id=1164698792 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
+
+[node name="floor_wood21" parent="floor_wood35" unique_id=927882684 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood35" unique_id=1872541114 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood35" unique_id=714874367 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
+
+[node name="floor_wood36" parent="." unique_id=1868472981 instance=ExtResource("4_2qse1")]
+transform = Transform3D(0.81989604, 0, 0, 0, 1, 0, 0, 0, 0.86605203, -17.8, 1.9364682, -9.012544)
+
+[node name="floor_wood20" parent="floor_wood36" unique_id=1474350680 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
+
+[node name="floor_wood21" parent="floor_wood36" unique_id=1639107869 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood36" unique_id=1608689241 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood36" unique_id=2101436958 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
+
+[node name="floor_wood37" parent="." unique_id=424370290 instance=ExtResource("4_2qse1")]
+transform = Transform3D(0.81989604, 0, 0, 0, 1, 0, 0, 0, 0.86605203, -17.8, 1.9364682, -12.438842)
+
+[node name="floor_wood20" parent="floor_wood37" unique_id=2137245306 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
+
+[node name="floor_wood21" parent="floor_wood37" unique_id=515120293 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood37" unique_id=98826156 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood37" unique_id=663942561 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
+
+[node name="floor_wood38" parent="." unique_id=971554648 instance=ExtResource("4_2qse1")]
+transform = Transform3D(0.81989604, 0, 0, 0, 1, 0, 0, 0, 0.86605203, -17.8, 1.9364682, -15.865145)
+
+[node name="floor_wood20" parent="floor_wood38" unique_id=1985124560 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
+
+[node name="floor_wood21" parent="floor_wood38" unique_id=2070254685 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood38" unique_id=2086258086 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood38" unique_id=1146004370 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
+
+[node name="floor_wood33" parent="." unique_id=1324337855 instance=ExtResource("4_2qse1")]
+transform = Transform3D(0.81989604, 0, 0, 0, 1, 0, 0, 0, 0.7794468, -17.8, 1.9364682, 1.1101189)
+
+[node name="floor_wood39" parent="." unique_id=1500824717 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1.02487, 0, 0, 0, 1, 0, 0, 0, 0.86605203, -19.5, 1.8364682, -18.7807)
+
+[node name="floor_wood20" parent="floor_wood39" unique_id=1627662531 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
+
+[node name="floor_wood21" parent="floor_wood39" unique_id=182818748 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood39" unique_id=1265177441 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood39" unique_id=363109877 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
+
+[node name="floor_wood40" parent="floor_wood39" unique_id=949626725 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 0, 0, -3.9562263)
+
+[node name="floor_wood20" parent="floor_wood39/floor_wood40" unique_id=190011504 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
+
+[node name="floor_wood21" parent="floor_wood39/floor_wood40" unique_id=1955724073 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood39/floor_wood40" unique_id=2137677158 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood39/floor_wood40" unique_id=1302503829 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
+
+[node name="floor_wood41" parent="floor_wood39" unique_id=443814014 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 0, 0, -7.9124565)
+
+[node name="floor_wood20" parent="floor_wood39/floor_wood41" unique_id=291507633 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 3.9819686, 0, 0)
+
+[node name="floor_wood21" parent="floor_wood39/floor_wood41" unique_id=917188817 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999994, 7.9639363, 0, 0)
+
+[node name="floor_wood22" parent="floor_wood39/floor_wood41" unique_id=1864773860 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.9999998, 11.945905, 0, 0)
+
+[node name="floor_wood23" parent="floor_wood39/floor_wood41" unique_id=1758619904 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 0.99999976, 15.927871, 0, 0)
 
 [node name="wall_tsplit" parent="." unique_id=307395178 instance=ExtResource("4_jy02f")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1.2, 0, -1, 0, -4.371139e-08, -3.3000002, 2, -2.6)
@@ -707,7 +595,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.2000027, 0, 15.900001)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.200001, 0, 15.899995)
 
 [node name="wall_tsplit3" parent="wall_doorway2" unique_id=159815027 instance=ExtResource("4_jy02f")]
-transform = Transform3D(-1, 0, 8.742277e-08, 0, 1, 0, -8.742277e-08, 0, -1, 9.200001, 0, 15.900001)
+transform = Transform3D(-1, 0, 8.742277e-08, 0, 1, 0, -8.742277e-08, 0, -1, 9.300001, 0, 15.900001)
 
 [node name="wall_doorway2" parent="wall_doorway2" unique_id=328814226 instance=ExtResource("6_kjd3d")]
 transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 9.300003, 0, 7.9000006)
@@ -794,16 +682,28 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -0.10000038)
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8, 0, -0.10000038)
 
 [node name="ceiling" parent="." unique_id=1282084060 instance=ExtResource("13_bm28l")]
-transform = Transform3D(7.0685997, 0, 0, 0, 0.605, 0, 0, 0, 1.4399999, 10.8, 6.7999997, -5.8)
+transform = Transform3D(7.0685997, 0, 0, 0, 0.605, 0, 0, 0, 1.4399999, 10.8, 6.7999997, -6.0000005)
 
 [node name="ceiling2" parent="ceiling" unique_id=61947558 instance=ExtResource("13_bm28l")]
-transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.8888893)
+transform = Transform3D(0.9999997, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.958333)
 
 [node name="ceiling3" parent="ceiling" unique_id=56530125 instance=ExtResource("13_bm28l")]
-transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -7.63889)
+transform = Transform3D(0.99999976, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -7.8472233)
 
 [node name="ceiling4" parent="ceiling" unique_id=1013470787 instance=ExtResource("13_bm28l")]
 transform = Transform3D(0.9999998, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -11.666668)
+
+[node name="ceiling2" parent="." unique_id=1725694873 instance=ExtResource("13_bm28l")]
+transform = Transform3D(7.0685997, 0, 0, 0, 0.605, 0, 0, 0, 1.2830399, 10.8, 6.7999997, 15.5999975)
+
+[node name="ceiling2" parent="ceiling2" unique_id=730423604 instance=ExtResource("13_bm28l")]
+transform = Transform3D(0.99999994, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -3.8888893)
+
+[node name="ceiling3" parent="ceiling2" unique_id=259997972 instance=ExtResource("13_bm28l")]
+transform = Transform3D(0.9999998, 0, 0, 0, 1, 0, 0, 0, 1.0000001, 0, 0, -7.79477)
+
+[node name="ceiling4" parent="ceiling2" unique_id=1939819776 instance=ExtResource("13_bm28l")]
+transform = Transform3D(1.0000001, 0, 0, 0, 1, 0, 0, 0, 1.1000001, 0, 0, -11.902826)
 
 [node name="wall_archedwindow_gated2" parent="." unique_id=447452386 instance=ExtResource("13_pdl2l")]
 transform = Transform3D(1, 0, 0, 0, 1.21, 0, 0, 0, 1, 0.7, 2, 18.5)
@@ -971,3 +871,59 @@ transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 24.3
 
 [node name="torch_mounted4" parent="Props" unique_id=1617100606 instance=ExtResource("19_xt52j")]
 transform = Transform3D(1.3113416e-07, 0, 1, 0, 1, 0, -1, 0, 1.3113416e-07, -3.0000014, 4.3, -8.500001)
+
+[node name="Node3D" type="Node3D" parent="." unique_id=798364411]
+
+[node name="floor_wood" parent="Node3D" unique_id=2113529246 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 2, 17)
+
+[node name="floor_wood2" parent="Node3D" unique_id=421489031 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 2, 17)
+
+[node name="floor_wood3" parent="Node3D" unique_id=1106777742 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 2, 17)
+
+[node name="floor_wood4" parent="Node3D" unique_id=511114884 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 2, 17)
+
+[node name="floor_wood5" parent="Node3D" unique_id=1805422684 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 2, 13)
+
+[node name="floor_wood7" parent="Node3D" unique_id=48161325 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 2, 13)
+
+[node name="floor_wood8" parent="Node3D" unique_id=231642051 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 2, 13)
+
+[node name="floor_wood9" parent="Node3D" unique_id=1063177870 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 2, 13)
+
+[node name="floor_wood10" parent="Node3D" unique_id=958575705 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 2, 9)
+
+[node name="floor_wood12" parent="Node3D" unique_id=1306366946 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 2, 9)
+
+[node name="floor_wood13" parent="Node3D" unique_id=1501949847 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 2, 9)
+
+[node name="floor_wood14" parent="Node3D" unique_id=11769514 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 2, 9)
+
+[node name="floor_wood15" parent="Node3D" unique_id=1639456531 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -18, 2, 5)
+
+[node name="floor_wood16" parent="Node3D" unique_id=1691594021 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14, 2, 5)
+
+[node name="floor_wood17" parent="Node3D" unique_id=1339925104 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 2, 5)
+
+[node name="floor_wood18" parent="Node3D" unique_id=972089802 instance=ExtResource("4_2qse1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 2, 5)
+
+[node name="wall2" parent="Node3D" unique_id=999444074 instance=ExtResource("5_5dxk1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -16, 2, 11)
+
+[node name="Healthpack2" parent="." unique_id=2055741949 instance=ExtResource("21_xt52j")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12, 4, 12)
