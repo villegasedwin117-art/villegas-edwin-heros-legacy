@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dyyl1sg5r3556"]
+
+[ext_resource type="PackedScene" uid="uid://bdglj2wsarg8b" path="res://assests/dungeon_assets/props/torch_mounted.glb" id="1_7myau"]
+
+[node name="Lite Torch" type="Node3D" unique_id=1312026118]
+
+[node name="torch_mounted2" parent="." unique_id=362890684 instance=ExtResource("1_7myau")]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1230961503]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.74206233, 0.35262048)
+light_color = Color(0.97, 0.485, 0, 1)
