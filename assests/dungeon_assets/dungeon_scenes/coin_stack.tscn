@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://l2gkgi132yvb"]
+
+[ext_resource type="PackedScene" uid="uid://5g151jx10d4j" path="res://assests/dungeon_assets/props/coin_stack.glb" id="1_46wfs"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_45ueg"]
+radius = 0.62612987
+
+[node name="coin_stack" type="StaticBody3D" unique_id=2141246201]
+
+[node name="coin_stack" parent="." unique_id=405296097 instance=ExtResource("1_46wfs")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=40201469]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.44988567, 0)
+shape = SubResource("SphereShape3D_45ueg")

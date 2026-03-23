@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://b6rurojstoctg"
-path="res://.godot/imported/stair_case.glb-818ffcfcc5c09f070d26ee163eea1bd6.scn"
+uid="uid://cpp3kl2c3ly2w"
+path="res://.godot/imported/stair_case02.glb-a161b167c064c6aec304bccb501eb2e3.scn"
 
 [deps]
 
-source_file="res://Meshes/stair_case.glb"
-dest_files=["res://.godot/imported/stair_case.glb-818ffcfcc5c09f070d26ee163eea1bd6.scn"]
+source_file="res://Meshes/stair_case02.glb"
+dest_files=["res://.godot/imported/stair_case02.glb-a161b167c064c6aec304bccb501eb2e3.scn"]
 
 [params]
 
@@ -37,14 +37,6 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={
-"materials": {
-"Material": {
-"use_external/enabled": true,
-"use_external/fallback_path": "res://assests/dungeon_assets/dungeon_material.tres",
-"use_external/path": "uid://i5oaee3744q3"
-}
-}
-}
+_subresources={}
 gltf/naming_version=2
 gltf/embedded_image_handling=1

@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://b2uqmjv5c5drd"]
+
+[ext_resource type="PackedScene" uid="uid://l2gkgi132yvb" path="res://assests/dungeon_assets/dungeon_scenes/coin_stack.tscn" id="1_7shhu"]
+
+[node name="Node3D" type="Node3D" unique_id=498566094]
+
+[node name="coin_stack" parent="." unique_id=2141246201 instance=ExtResource("1_7shhu")]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, -0.05, 0, -0.25)

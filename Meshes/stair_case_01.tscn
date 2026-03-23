@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://cei32lmxx8wbr"]
+
+[ext_resource type="PackedScene" uid="uid://b6rurojstoctg" path="res://Meshes/stair_case.glb" id="1_ho1oq"]
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_ho1oq"]
+
+[node name="stair_case01" type="StaticBody3D" unique_id=2011002229]
+
+[node name="stair_case" parent="." unique_id=1889898807 instance=ExtResource("1_ho1oq")]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=338198061]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3, 0, 0)
+shape = SubResource("ConvexPolygonShape3D_ho1oq")
