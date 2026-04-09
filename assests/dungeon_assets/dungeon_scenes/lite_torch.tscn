@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://dyyl1sg5r3556"]
 
 [ext_resource type="PackedScene" uid="uid://bdglj2wsarg8b" path="res://assests/dungeon_assets/props/torch_mounted.glb" id="1_7myau"]
+[ext_resource type="PackedScene" uid="uid://c0x6v5ymyqs7s" path="res://assests/dungeon_assets/partical effects/smoke.tscn" id="2_v6bfp"]
 
 [node name="Lite Torch" type="Node3D" unique_id=1312026118]
 
@@ -9,3 +10,6 @@
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1230961503]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.74206233, 0.35262048)
 light_color = Color(0.97, 0.485, 0, 1)
+
+[node name="Smoke" parent="." unique_id=1502639763 instance=ExtResource("2_v6bfp")]
+transform = Transform3D(0.2456443, 0, 0, 0, 0.7810749, 0, 0, 0, 0.27920705, 0, 1.1010481, 0.27669)

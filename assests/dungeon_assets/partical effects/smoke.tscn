@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://c0x6v5ymyqs7s"]
+
+[sub_resource type="Curve" id="Curve_7pgmq"]
+
+[sub_resource type="CurveTexture" id="CurveTexture_305iv"]
+curve = SubResource("Curve_7pgmq")
+
+[sub_resource type="Curve" id="Curve_57ha7"]
+_data = [Vector2(0.021598272, 0.99721265), 0.0, 0.0, 0, 0, Vector2(0.93304527, 0.018868089), -0.048698727, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveTexture" id="CurveTexture_74yfv"]
+curve = SubResource("Curve_57ha7")
+
+[sub_resource type="Curve" id="Curve_1ovwn"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 0.0132933855), -3.6564825, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_sus43"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="Curve" id="Curve_3040v"]
+_data = [Vector2(0, 1), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
+
+[sub_resource type="CurveXYZTexture" id="CurveXYZTexture_paby8"]
+curve_x = SubResource("Curve_1ovwn")
+curve_y = SubResource("Curve_sus43")
+curve_z = SubResource("Curve_3040v")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_0hcx0"]
+emission_shape = 1
+emission_sphere_radius = 1.0
+spread = 160.92
+initial_velocity_max = 1.0
+gravity = Vector3(0, 4, 0)
+scale_min = 0.19999999
+scale_max = 0.39999998
+scale_curve = SubResource("CurveXYZTexture_paby8")
+color = Color(0.16192818, 0, 0.011663844, 1)
+alpha_curve = SubResource("CurveTexture_305iv")
+emission_curve = SubResource("CurveTexture_74yfv")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dmy5i"]
+vertex_color_use_as_albedo = true
+
+[sub_resource type="SphereMesh" id="SphereMesh_iq0yq"]
+material = SubResource("StandardMaterial3D_dmy5i")
+
+[node name="Smoke" type="GPUParticles3D" unique_id=1502639763]
+amount = 18
+explosiveness = 0.9
+fixed_fps = 0
+process_material = SubResource("ParticleProcessMaterial_0hcx0")
+draw_pass_1 = SubResource("SphereMesh_iq0yq")

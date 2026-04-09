@@ -1478,3 +1478,12 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.549999, 5.5, -20.1)
 
 [node name="Ceiling9" parent="Ceiling room 3" unique_id=1618848608 instance=ExtResource("20_g2xra")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.749999, 5.5, -20.1)
+
+[node name="Lite Torch17" parent="." unique_id=112373552 instance=ExtResource("23_6g61c")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -3.2500005, 3.65, 11.7)
+
+[node name="Lite Torch19" parent="." unique_id=1697304298 instance=ExtResource("23_6g61c")]
+transform = Transform3D(-0.25881904, 0, 0.9659258, 0, 1, 0, -0.9659258, 0, -0.25881904, -18.300001, 3.65, 11.7)
+
+[node name="Lite Torch18" parent="." unique_id=737697633 instance=ExtResource("23_6g61c")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -3.2500005, 3.65, 8.599999)
